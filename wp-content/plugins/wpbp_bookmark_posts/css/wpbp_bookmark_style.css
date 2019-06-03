@@ -1,0 +1,66 @@
+.wpbp_bookmark_link a, .wpbp_bookmark_remove, .wpbp_remove_all a {
+  display: inline-block;
+  float: right;
+  text-decoration:  none !important;
+  color: #ffffff !important;
+  background: #3067b9;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.wpbp_bookmark_link a:hover, .wpbp_bookmark_remove:hover, .wpbp_remove_all a:hover {
+  background: #417dd6;
+  transition: .3s ease-in-out;
+}
+
+.wpbp_info {
+  float: right;
+  color: rgba(225, 74, 70, 0.77);
+}
+
+.wpbp_bookmark_menu > a > i {
+  color: #FF6627;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.wpbp_bookmarks_item {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.29);
+  -moz-box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.29);
+  box-shadow: -1px 1px 21px -2px rgba(0,0,0,0.29);
+}
+
+.wpbp_bookmark_content {
+  width: 75%;
+}
+
+.wpbp_bookmark_thumb {
+  box-shadow: none !important;
+  align-self: center;
+}
+
+.wpbp_remove_all {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wpbp_remove_all a {
+  float: none;
+}
+
+.wpbp_bookmark_info {
+  float: none !important;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 0;
+  margin-bottom: 0;
+  align-self: center;
+}
